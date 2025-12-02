@@ -233,7 +233,7 @@ ul {
 
     &__inner {
       max-width: 847px;
-      padding: 222px 0 120px;
+      padding: 120px 0 60px;
 
       @media only screen and (max-width: 1300px) {
         padding: 180px 0 80px;
@@ -355,6 +355,7 @@ ul {
       @media only screen and (max-width: 1300px) {
         width: 370px;
         height: 446px;
+        bottom: 20%;
         background-size: cover;
       }
 
@@ -1406,7 +1407,7 @@ ul {
       z-index: 11;
       width: 64px;
       height: 64px;
-      border: 1px solid #97999B;
+      border: 1px solid #97999b;
       cursor: pointer;
       left: -100px;
       top: 50%;
