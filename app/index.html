@@ -180,7 +180,7 @@
                   <div class="form-content__item">
                     <b>Информация о группе*</b>
                     <label class="field">
-                      <input type="text" />
+                      <input type="number" />
                       <span class="field__label"
                         >Количество участников от 7 до 20*</span
                       >
@@ -303,13 +303,30 @@
                       <a href="#">условия соглашения</a>
                     </span>
                   </label>
-                  <button type="submit" class="form-content__btn btn btn-blue">
+                  <a href="#thanks" data-fancybox type="submit" class="form-content__btn btn btn-blue">
                     Отправить
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="thanks thanks-modal" id="thanks" style="display: none;">
+      <div class="thanks__close" data-fancybox-close="">
+        <img src="images/close-modal.svg" alt="">
+      </div>
+      <div class="thanks__info">
+        <div class="thanks__title">
+          Ваше обращение <br>
+          в отдел продаж принято
+        </div>
+        <div class="thanks__text">
+          Менеджер отдела продаж свяжется <br>
+          с вами в течение 1 рабочего дня
         </div>
       </div>
     </div>
