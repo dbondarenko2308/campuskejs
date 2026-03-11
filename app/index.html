@@ -2,342 +2,578 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Klimat</title>
+    <title>АЯК</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1,
       maximum-scale=1"
     />
     <link rel="stylesheet" href="libs/swiper/swiper.css" />
-    <link rel="stylesheet" href="libs/select2/select2.min.css" />
-    <link rel="stylesheet" href="libs/air-data/air.css" />
-    <link rel="stylesheet" href="libs/inputTel/inputTel.css" />
-
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <div class="banner-jac">
-      <div class="banner-jac__inner">
-        <div class="banner-jac__text">
-          корпоративное обучение для компаний от учебного центра ГК «АЯК»
+    <div class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo">
+            <img src="images/logo.svg" alt="" />
+          </a>
+
+          <a href="#" class="header__btn btn btn-red">регистрация</a>
         </div>
-        <div class="banner-jac__img">
-          <img src="images/banner-jac.png" alt="" />
-        </div>
-        <a href="#" class="banner-jac__btn">Перейти</a>
       </div>
     </div>
 
-    <div class="wrapper-koor">
-      <div class="koor">
-        <div class="container">
-          <div class="koor__inner">
-            <h1 class="koor__title title">
-              Корпоративное обучение для компаний от учебного центра от ГК “АЯК”
-            </h1>
-
-            <div class="koor__text">
-              Дорогие партнёры!
-              <br />
-              <br />
-              Учебный центр ГК «АЯК» рад пригласить вашу команду на программы
-              корпоративного обучения. Мы создаём условия, в которых ваши
-              сотрудники не просто получают знания, а уверенно развивают
-              профессиональные навыки и ключевые компетенции.
-              <br />
-              <br />
-              Что особенно приятно — по завершении курса и успешной сдаче теста
-              каждый участник получит сертификат. Это не только подтверждение
-              приобретённых знаний, но и отличный стимул для дальнейшего роста!
-            </div>
-
-            <a href="#" class="koor__btn btn btn-blue">Подать заявку</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="koor-adva">
-        <div class="container">
-          <div class="koor-adva__inner">
-            <div class="koor-adva__label">Наши преимущества</div>
-
-            <div class="koor-adva__items">
-              <div class="koor-adva__item">
-                <div class="koor-adva__img">
-                  <img src="images/k1.png" alt="" />
-                </div>
-
-                <div class="koor-adva__info">
-                  <b>Широкий выбор тем обучения </b> продукт, подбор, монтаж и
-                  сервис
-                </div>
-              </div>
-              <div class="koor-adva__item">
-                <div class="koor-adva__img">
-                  <img src="images/k2.png" alt="" />
-                </div>
-
-                <div class="koor-adva__info">
-                  <b> Комплексный подход </b>
-                  Обучаем группу сотрудников одновременно, сохраняя единый
-                  уровень знаний
-                </div>
-              </div>
-              <div class="koor-adva__item">
-                <div class="koor-adva__img">
-                  <img src="images/k3.png" alt="" />
-                </div>
-
-                <div class="koor-adva__info">
-                  <b> Удобное расписание </b>
-                  Согласуем даты, которые подойдут всей команде
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="koor-seminar">
-        <div class="container">
-          <div class="koor-seminar__inner">
-            <div class="koor-adva__label">Место проведения семинаров</div>
-
-            <div class="koor-seminar__info">
-              <div class="koor-seminar__img">
-                <img src="images/seminar.png" alt="" />
-              </div>
-
-              <div class="koor-seminar__content">
-                <span
-                  >Учебный центр ГК "АЯК", г. Москва, 2-я ул. Синичкина, 9А, БЦ
-                  "Синица Плаза"</span
-                >
-                <a href="#" class="koor-seminar__btn btn btn-blue"
-                  >Подать заявку</a
-                >
-              </div>
-            </div>
+    <div class="showcase">
+      <div class="container">
+        <div class="showcase__inner">
+          <div class="showcase__text">
+            В2В-портал ГК «АЯК» для онлайн заказов
           </div>
         </div>
       </div>
     </div>
-    <div class="wrapper-content-blue">
-      <div class="wrapper-form">
-        <div class="container">
-          <form action="#">
-            <div class="form-content">
-              <h3 class="form-content__title">
-                Заполняйте заявку на корпоративное обучение онлайн — мы
-                оперативно свяжемся с вами!
-              </h3>
-              <div class="form-content__label">Контактные данные*</div>
 
-              <div class="form-content__top">
-                <div class="form-content__info">
-                  <label class="field field--error">
-                    <input type="text" />
-                    <span class="field__label">ФИО</span>
-                  </label>
-                  <div class="form-group">
-                    <input
-                      id="phone"
-                      type="tel"
-                      name="leyka_donor_phone"
-                      class="form-control tel"
-                      inputmode="tel"
-                      value=""
-                    />
-                  </div>
-                  <label class="field">
-                    <input type="text" />
-                    <span class="field__label">Должность</span>
-                  </label>
-                  <label class="field">
-                    <input type="text" />
-                    <span class="field__label">Email*</span>
-                  </label>
-                  <label class="field">
-                    <input type="text" />
-                    <span class="field__label">Название компании</span>
-                  </label>
-                  <label class="field">
-                    <input type="text" />
-                    <span class="field__label">Город</span>
-                  </label>
+    <div class="work">
+      <div class="container">
+        <div class="work__inner">
+          <div class="work__items">
+            <div class="work__item">
+              <div class="work__logo">
+                <img src="images/w1.svg" alt="" />
+              </div>
+              <div class="work__name">
+                Самостоятельное управление отгрузками
+              </div>
+              <div class="work__text">
+                Заказ в несколько кликов без обращения к менеджеру, история
+                заказов в одном месте
+              </div>
+            </div>
+            <div class="work__item">
+              <div class="work__logo">
+                <img src="images/w2.svg" alt="" />
+              </div>
+              <div class="work__name">Доступ 24/7</div>
+              <div class="work__text">
+                Сервис всегда под рукой — в вашем смартфоне
+              </div>
+            </div>
+            <div class="work__item">
+              <div class="work__logo">
+                <img src="images/w3.svg" alt="" />
+              </div>
+              <div class="work__name">Наличие</div>
+              <div class="work__text">
+                Отображение складских остатко <br />
+                в режиме реального времени
+              </div>
+            </div>
+            <div class="work__item">
+              <div class="work__logo">
+                <img src="images/w4.svg" alt="" />
+              </div>
+              <div class="work__name">Актуальные цены</div>
+              <div class="work__text">
+                Всегда актуальные цены <br />
+                на оборудование
+              </div>
+            </div>
+          </div>
 
-                  <label class="field">
-                    <input type="number" />
-                    <span class="field__label">ИНН</span>
-                  </label>
-                  <label class="field">
-                    <input type="text" />
-                    <span class="field__label">ФИО менеджера ГК «АЯК»</span>
-                  </label>
+          <div class="work__btns">
+            <a href="#" class="work__btn btn btn-red"> Регистрация </a>
 
-                  <div class="form-content__item">
-                    <b>Информация о группе*</b>
-                    <label class="field">
-                      <input type="number" />
-                      <span class="field__label"
-                        >Количество участников от 7 до 20*</span
-                      >
-                    </label>
-                  </div>
-                  <div class="form-content__item">
-                    <b>Выберите желаемый интервал обучения*</b>
-                    <label class="field">
-                      <input
-                        type="text"
-                        class="calendar-input"
-                        placeholder="Выберите даты"
-                        readonly
-                      />
-                    </label>
-                  </div>
-                </div>
+            <a href="#" class="work__btn btn btn-white"> Авторизоваться </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                <div class="form-content__aside">
-                  <b>Выбор товарной категории*</b>
+    <div class="brands">
+      <div class="container">
+        <div class="brands__inner">
+          <div class="brands__top">
+            <div class="brands__title">Бренды</div>
 
-                  <div class="form-content__category">
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text"
-                        >Бытовые, полупромышленные, мульти-сплит системы
-                      </span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text"
-                        >VRF-системы, ККБ, сплит-системы большой мощности,
-                        руфтопы
-                      </span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text"
-                        >Чиллер-фанкойл системы
-                      </span>
-                    </label>
-                  </div>
-                </div>
+            <div class="brands__desc">
+              ГК «АЯК» — эксклюзивный дистрибьютор MDV, ЕК и импортёр
+              климатических систем Mitsubishi Heavy Industries.
+            </div>
+          </div>
 
-                <div class="form-content__aside">
-                  <b>Для кого*</b>
+          <div class="brands__items">
+            <div class="brands__item">
+              <div class="brands__img">
+                <img src="images/b1.png" alt="" />
+              </div>
 
-                  <div class="form-content__category">
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text">Для монтажников </span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text">Для менеджеров </span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text">Для инженеров</span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text">Для сервисных мастеров</span>
-                    </label>
-                    <label class="checkbox">
-                      <span class="checkbox__inner">
-                        <input type="checkbox" />
-                        <span></span>
-                      </span>
-                      <span class="checkbox__text"
-                        >Другое (напишите в <br />
-                        комментариях ниже)</span
-                      >
-                    </label>
-                  </div>
-                </div>
+              <div class="brands__text">
+                Оригинальный бренд профессионального климатического оборудования
+                Midea Group Co., ltd. — HVAC-производителя № 1 в мире
+              </div>
 
-                <div class="form-content__area">
-                  <b
-                    >Есть вопросы об обучении или хотите предложить свою тему
-                    для курса?</b
+              <a href="#" class="brands__link">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="brands__item">
+              <div class="brands__img">
+                <img src="images/b2.png" alt="" />
+              </div>
+
+              <div class="brands__text">
+                Собственный бренд ГК «АЯК», созданный на основе 30-летней
+                экспертизы и понимания потребностей российского HVAC-рынка
+              </div>
+
+              <a href="#" class="brands__link">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="brands__item">
+              <div class="brands__img">
+                <img src="images/b3.png" alt="" />
+              </div>
+
+              <div class="brands__text">
+                Японский бренд с более чем 150-летней историей и мировым именем.
+                В оборудовании Mitsubishi Heavy Industries воплощаются инновации
+                и прорывные технологии, а логотип стал символом качества
+                и надежности
+              </div>
+
+              <a href="#" class="brands__link">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="brands__item">
+              <div class="brands__img">
+                <img src="images/b4.png" alt="" />
+              </div>
+
+              <div class="brands__text">
+                Бренд климатического оборудования компании Euroklimat S.P.A.
+                Italy. Оборудование EK — это баланс цены и качества, технических
+                характеристик и удобства эксплуатации
+              </div>
+
+              <a href="#" class="brands__link">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="climat">
+      <div class="container">
+        <div class="climat__inner">
+          <div class="brands__top">
+            <div class="brands__title">климатическое оборудование</div>
+
+            <div class="brands__desc">
+              На В2В-портале ГК «АЯК» вы можете сделать заказ по бытовым,
+              мультисплит и полупромышленным системам
+            </div>
+          </div>
+
+          <div class="climat__items">
+            <div class="climat__item">
+              <div class="climat__img">
+                <img src="images/c1.png" alt="" />
+              </div>
+
+              <div class="climat__info">
+                <div class="climat__name">Бытовые сплит-системы</div>
+
+                <a href="#" class="climat__arrow">
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-
-                  <textarea placeholder="Введите текст"></textarea>
-                </div>
-              </div>
-              <div class="form-content__bot">
-                <div class="captcha captcha-right">
-                  <img src="images/captcha.png" alt="" />
-                </div>
-                <div class="form-content__foot">
-                  <label class="checkbox">
-                    <span class="checkbox__inner">
-                      <input type="checkbox" checked />
-                      <span></span>
-                    </span>
-                    <span class="checkbox__text"
-                      >Нажимая кнопку, я принимаю
-                      <a href="#">условия соглашения</a>
-                    </span>
-                  </label>
-                  <a href="#thanks" data-fancybox type="submit" class="form-content__btn btn btn-blue">
-                    Отправить
-                  </a>
-                </div>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
-          </form>
+            <div class="climat__item">
+              <div class="climat__img">
+                <img src="images/c2.png" alt="" />
+              </div>
+
+              <div class="climat__info">
+                <div class="climat__name">
+                  Бытовые <br />
+                  сплит-системы
+                </div>
+
+                <a href="#" class="climat__arrow">
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="climat__item">
+              <div class="climat__img">
+                <img src="images/c3.png" alt="" />
+              </div>
+
+              <div class="climat__info">
+                <div class="climat__name">Полупромышленные сплит-системы</div>
+
+                <a href="#" class="climat__arrow">
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.34171 7.34171C7.79732 6.8861 8.53601 6.8861 8.99162 7.34171L20.6583 19.0084C21.1139 19.464 21.1139 20.2027 20.6583 20.6583C20.2027 21.1139 19.464 21.1139 19.0084 20.6583L7.34171 8.99162C6.8861 8.53601 6.8861 7.79732 7.34171 7.34171Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.8333 7C20.4777 7 21 7.52233 21 8.16667V19.8333C21 20.4777 20.4777 21 19.8333 21H8.16667C7.52233 21 7 20.4777 7 19.8333C7 19.189 7.52233 18.6667 8.16667 18.6667H18.6667V8.16667C18.6667 7.52233 19.189 7 19.8333 7Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__btns">
+            <a href="#" class="work__btn btn btn-red"> Регистрация </a>
+
+            <a href="#" class="work__btn btn btn-white"> Авторизоваться </a>
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__map">
+            <img src="images/bg-map.png" alt="" />
+          </div>
+          <div class="about__top">
+            <div class="about__title">
+              ГК «АЯК» — надёжный поставщик и эксперт в области климатического
+              оборудования
+            </div>
 
-    <div class="thanks thanks-modal" id="thanks" style="display: none;">
-      <div class="thanks__close" data-fancybox-close="">
-        <img src="images/close-modal.svg" alt="">
-      </div>
-      <div class="thanks__info">
-        <div class="thanks__title">
-          Ваше обращение <br>
-          в отдел продаж принято
-        </div>
-        <div class="thanks__text">
-          Менеджер отдела продаж свяжется <br>
-          с вами в течение 1 рабочего дня
+            <div class="about__text">
+              30 лет мы развиваемся вместе с российским рынком климатической
+              техники, поэтому отлично понимаем, что нужно покупателям
+              кондиционеров в России. Весь наш опыт, знания и инженерную
+              экспертизу мы воплотили в собственном бренде THAICON.
+            </div>
+
+            <div class="about__img">
+              <img src="images/logo.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="about__grids">
+            <div class="about__grid">
+              <div class="about__icon">
+                <svg
+                  width="46"
+                  height="46"
+                  viewBox="0 0 46 46"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.327 2.03878C22.7609 1.87607 23.2391 1.87607 23.673 2.03878L39.0063 7.78878C39.7544 8.06931 40.25 8.78446 40.25 9.58341V23.0001C40.25 29.6058 35.8767 34.884 31.9288 38.3384C29.9146 40.1008 27.9095 41.4784 26.4117 42.4145C25.6608 42.8838 25.0323 43.2453 24.5871 43.4917C24.3644 43.615 24.1872 43.7097 24.0631 43.7749C24.0011 43.8074 23.9522 43.8327 23.9176 43.8504L23.8764 43.8714L23.864 43.8776L23.8599 43.8797C23.8593 43.88 23.8572 43.8811 23 42.1667C22.1428 43.8811 22.1423 43.8808 22.1417 43.8805L22.136 43.8776L22.1236 43.8714L22.0824 43.8504C22.0477 43.8327 21.9989 43.8074 21.9369 43.7749C21.8128 43.7097 21.6356 43.615 21.4129 43.4917C20.9677 43.2453 20.3392 42.8838 19.5883 42.4145C18.0905 41.4784 16.0854 40.1008 14.0712 38.3384C10.1233 34.884 5.75 29.6058 5.75 23.0001V9.58341C5.75 8.78446 6.2456 8.06931 6.99368 7.78878L22.327 2.03878ZM23 42.1667L22.1417 43.8805C22.6813 44.1503 23.3176 44.1509 23.8572 43.8811L23 42.1667ZM23 39.987C23.3673 39.7788 23.837 39.5032 24.38 39.1638C25.7572 38.3031 27.5854 37.0452 29.4045 35.4535C33.1233 32.1995 36.4167 27.8944 36.4167 23.0001V10.9117L23 5.88042L9.58333 10.9117V23.0001C9.58333 27.8944 12.8767 32.1995 16.5955 35.4535C18.4146 37.0452 20.2428 38.3031 21.62 39.1638C22.163 39.5032 22.6327 39.7788 23 39.987Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M30.1053 17.8115C30.8538 18.56 30.8538 19.7735 30.1053 20.522L22.4386 28.1887C21.6901 28.9372 20.4766 28.9372 19.728 28.1887L15.8947 24.3554C15.1462 23.6069 15.1462 22.3933 15.8947 21.6448C16.6432 20.8963 17.8568 20.8963 18.6053 21.6448L21.0833 24.1228L27.3947 17.8115C28.1432 17.063 29.3568 17.063 30.1053 17.8115Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+
+              <div class="about__desc">
+                <p>С 1996 года</p>
+                <span>на российском климатическом рынке</span>
+              </div>
+            </div>
+
+            <div class="about__grid">
+              <div class="about__icon">
+                <svg
+                  width="46"
+                  height="46"
+                  viewBox="0 0 46 46"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.66699 7.66659C7.15866 7.66659 6.67115 7.86852 6.3117 8.22796C5.95226 8.58741 5.75033 9.07492 5.75033 9.58325V19.1666C5.75033 19.6749 5.95226 20.1624 6.3117 20.5219C6.67115 20.8813 7.15866 21.0833 7.66699 21.0833H11.5003C12.5589 21.0833 13.417 21.9414 13.417 22.9999C13.417 24.0585 12.5589 24.9166 11.5003 24.9166H7.66699C6.142 24.9166 4.67946 24.3108 3.60113 23.2324C2.52279 22.1541 1.91699 20.6916 1.91699 19.1666V9.58325C1.91699 8.05826 2.52279 6.59572 3.60113 5.51739C4.67946 4.43905 6.142 3.83325 7.66699 3.83325H38.3337C39.8587 3.83325 41.3212 4.43905 42.3995 5.51739C43.4779 6.59572 44.0837 8.05826 44.0837 9.58325V19.1666C44.0837 20.6916 43.4779 22.1541 42.3995 23.2324C41.3212 24.3108 39.8587 24.9166 38.3337 24.9166H34.5003C33.4418 24.9166 32.5837 24.0585 32.5837 22.9999C32.5837 21.9414 33.4418 21.0833 34.5003 21.0833H38.3337C38.842 21.0833 39.3295 20.8813 39.6889 20.5219C40.0484 20.1624 40.2503 19.6749 40.2503 19.1666V9.58325C40.2503 9.07492 40.0484 8.58741 39.6889 8.22796C39.3295 7.86852 38.842 7.66659 38.3337 7.66659H7.66699Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.58366 15.3333C9.58366 14.2747 10.4418 13.4166 11.5003 13.4166H34.5003C35.5589 13.4166 36.417 14.2747 36.417 15.3333C36.417 16.3918 35.5589 17.2499 34.5003 17.2499H11.5003C10.4418 17.2499 9.58366 16.3918 9.58366 15.3333Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M26.8337 21.0833C27.8922 21.0833 28.7503 21.9414 28.7503 22.9999V37.3831C28.7768 37.833 28.9067 38.271 29.1301 38.6629C29.3584 39.0635 29.6781 39.4046 30.063 39.6585C30.6535 40.0364 31.3619 40.1855 32.0548 40.0776C32.7504 39.9693 33.3821 39.6095 33.8301 39.0665C34.2781 38.5235 34.5114 37.835 34.4856 37.1315C34.4598 36.428 34.1768 35.7584 33.6902 35.2497C32.9585 34.4847 32.9856 33.2714 33.7506 32.5398C34.5155 31.8081 35.7288 31.8352 36.4605 32.6002C37.5958 33.7872 38.2561 35.3496 38.3163 36.9911C38.3765 38.6326 37.8323 40.2391 36.787 41.5061C35.7416 42.7731 34.2677 43.6126 32.6446 43.8653C31.0216 44.118 29.3623 43.7665 27.9811 42.8773L27.9676 42.8686C27.0726 42.2818 26.3297 41.4909 25.7998 40.5611C25.2698 39.6314 24.9679 38.5892 24.919 37.5201C24.9177 37.4909 24.917 37.4616 24.917 37.4324V22.9999C24.917 21.9414 25.7751 21.0833 26.8337 21.0833Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.167 21.0833C20.2255 21.0833 21.0837 21.9414 21.0837 22.9999V32.5711C21.0945 33.5174 20.8717 34.4518 20.4347 35.2914C19.9956 36.1354 19.3538 36.8572 18.567 37.3921C17.7803 37.9271 16.873 38.2584 15.9267 38.3565C14.9804 38.4545 14.0245 38.3162 13.1447 37.954C12.265 37.5917 11.4889 37.0169 10.886 36.2809C10.2831 35.5449 9.87219 34.6708 9.69021 33.7369C9.50822 32.8031 9.5608 31.8387 9.84323 30.9302C10.1257 30.0217 10.6291 29.1974 11.3085 28.5313C12.0643 27.7902 13.2778 27.8022 14.0189 28.5581C14.76 29.3139 14.748 30.5274 13.9922 31.2685C13.7657 31.4905 13.5979 31.7653 13.5038 32.0681C13.4096 32.371 13.3921 32.6924 13.4528 33.0037C13.5134 33.315 13.6504 33.6064 13.8513 33.8517C14.0523 34.097 14.311 34.2886 14.6043 34.4094C14.8975 34.5301 15.2161 34.5762 15.5316 34.5436C15.847 34.5109 16.1494 34.4004 16.4117 34.2221C16.674 34.0438 16.8879 33.8032 17.0343 33.5219C17.1807 33.2405 17.255 32.9273 17.2505 32.6102L17.2501 32.5833L17.2503 22.9999C17.2503 21.9414 18.1084 21.0833 19.167 21.0833Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+
+              <div class="about__desc">
+                <p>Топ-5 дистрибьюторов</p>
+                <span>нклиматического оборудования*</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__items">
+            <div class="about__item">
+              <p>60+</p>
+              <span>складов и 3 логистических центра</span>
+            </div>
+            <div class="about__item">
+              <p>20 000+</p>
+              <span>реализованных объектов</span>
+            </div>
+            <div class="about__item">
+              <p>22</p>
+              <span>филиала в РФ и в странах ближнего зарубежья</span>
+            </div>
+            <div class="about__item">
+              <p>95+</p>
+              <span>авторизованных сервисных центров</span>
+            </div>
+          </div>
+
+          <div class="about__cit">
+            *по данным агентства «Литвинчук-маркетинг»
+          </div>
+
+          <a href="#" class="about__btn btn btn-white">сайт дистрибьютора</a>
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a href="#" class="footer__logo">
+            <img src="images/footer-logo.svg" alt="" />
+          </a>
+
+          <div class="footer__info">
+            <a href="#">8 (800) 234 56 05</a>
+            <a href="#">public@jac-company.com</a>
+          </div>
+
+          <div class="footer__content">
+            <ul class="footer__soc">
+              <li>
+                <a href="#">
+                  <svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.16602 11.8909V18.5494H2.82227H4.47852V16.3932V14.2369H7.50933H10.5401L11.9785 16.3932L13.4169 18.5494H15.2622H17.1074L16.8656 18.2213C15.6828 16.6165 14.0231 14.3255 14.0003 14.266C13.9821 14.2185 14.1022 14.1664 14.3346 14.1206C15.451 13.9009 16.2142 13.1629 16.5087 12.0182C16.7511 11.0758 16.7859 8.76642 16.5728 7.76817C16.3127 6.55055 15.5091 5.71223 14.2852 5.38198C13.9206 5.28361 13.3158 5.27211 7.52539 5.25317L1.16602 5.23242V11.8909ZM12.8781 8.25748C13.012 8.29792 13.1807 8.4103 13.2531 8.5073C13.3748 8.67023 13.3848 8.76336 13.3848 9.73692C13.3848 10.7081 13.3746 10.804 13.2539 10.9667C13.021 11.2807 12.9026 11.2889 8.52539 11.2944L4.47852 11.2994V9.73692V8.17442L8.55664 8.17923C11.4888 8.18267 12.7031 8.20467 12.8781 8.25748Z"
+                      fill="#092147"
+                    />
+                    <circle cx="18.083" cy="4.08301" r="1.75" fill="#E20E17" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.63623 4.02737C8.69177 3.94019 9.85267 4.09514 10.9194 4.02827C11.4328 4.10173 11.605 4.44294 11.643 4.95232C11.7364 6.20039 11.5295 7.61618 11.6466 8.85312C11.6858 9.26484 11.9245 9.96909 12.4367 9.73569C12.6579 9.63456 13.0967 9.05535 13.2589 8.83419C13.8496 8.03042 14.3469 7.05744 14.7619 6.1396C14.9476 5.72921 15.1194 5.09313 15.3461 4.74046C15.4745 4.5405 15.6535 4.46009 15.8797 4.43846C16.9894 4.51903 18.2242 4.33475 19.3183 4.44026C20.3115 4.53598 20.0111 5.28297 19.7089 5.9602C19.0902 7.34863 17.8679 8.62966 17.0641 9.9178C16.717 10.4744 16.5584 10.7911 16.9957 11.3647C17.8482 12.4838 19.2863 13.3577 19.8652 14.7174C20.1082 15.2884 19.9857 15.8909 19.321 15.9507C18.5109 16.0241 17.1301 16.0083 16.3094 15.9507C14.7317 15.8399 14.2283 14.388 13.1665 13.4616C12.3627 12.7608 11.9254 13.3944 11.7708 14.2558C11.6868 14.7258 11.7841 15.5854 11.3385 15.8145C10.7901 16.0964 9.18074 15.9046 8.55513 15.7649C5.94429 15.1828 4.38626 13.2454 2.9911 11.0131C1.95898 9.36157 1.10009 7.59099 0.325834 5.78891L0 5.01632V4.76931C0.12345 4.49243 0.373756 4.46033 0.642789 4.43936C1.39116 4.38036 2.71622 4.37249 3.45899 4.43936C3.75165 4.46563 3.96832 4.58233 4.13462 4.83782C4.47111 5.35641 4.7631 6.32042 5.07217 6.93472C5.40131 7.58857 6.45308 9.51593 7.0618 9.77356C7.29403 9.87173 7.45028 9.8335 7.59539 9.61669C7.98981 9.02863 7.92624 6.64628 7.80225 5.91061C7.74243 5.5579 7.61187 5.22694 7.31838 5.02173C6.9545 4.76753 6.28312 4.89437 6.93306 4.31585C7.15303 4.12048 7.34834 4.05163 7.63623 4.02737Z"
+                      fill="#092147"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.0651 2.68547C14.6262 2.39173 15.2662 2.44957 15.7741 2.83998C16.284 3.23189 16.5511 3.87144 16.4919 4.55177L15.3383 16.1896C15.2388 17.1937 14.2676 17.7907 13.4379 17.3563L8.81858 14.9605C8.30729 14.6952 8.15261 13.9767 8.50156 13.4874L12.2459 8.23835C12.4736 7.94386 12.4599 7.50781 12.2152 7.23055C11.9704 6.95355 11.5735 6.92696 11.3009 7.16892L5.52795 12.1949C5.11685 12.5523 4.57931 12.6832 4.06934 12.5491L2.91066 12.2435L2.71669 12.1862C2.57966 12.1443 2.40632 12.0697 2.20656 11.9701C1.29439 11.5152 1.25705 10.1015 2.14333 9.58816L14.0651 2.68547Z"
+                      fill="#092147"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+
+            <div class="footer__copy">© АЯК 2025. Все права защищены</div>
+          </div>
+
+          <div class="footer__pers">
+            <a href="#">Пользовательское соглашение</a>
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="libs/jquery/jquery-3.2.1.min.js"></script>
-    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
-    <script src="libs/select2/select2.min.js"></script>
-    <script src="libs/air-data/air.js"></script>
-    <script src="libs/inputTel/inputTel.js"></script>
-    <script src="libs/swiper/swiper.min.js"></script>
-    <script src="https://unpkg.com/imask"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
