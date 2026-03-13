@@ -197,17 +197,12 @@ ul {
   }
 }
 .showcase__inner {
-  height: 592px;
+  height: 700px;
 }
 @media only screen and (max-width: 991px) {
   .showcase__inner {
-    height: 928px;
-    padding-bottom: 70px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .showcase__inner {
-    height: 600px;
+    padding-bottom: 30px;
+    height: 630px;
   }
 }
 .showcase__text {
@@ -233,6 +228,7 @@ ul {
   .showcase__text {
     align-items: flex-end;
     font-size: 48px;
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -398,7 +394,7 @@ ul {
 }
 @media only screen and (max-width: 1400px) {
   .brands__item {
-    min-height: 300px;
+    min-height: 390px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -668,7 +664,7 @@ ul {
   gap: 20px;
   border-radius: 20px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .about__grid {
     flex-direction: column;
   }
@@ -677,6 +673,7 @@ ul {
   padding: 30px;
   background: #edf0f5;
   border-radius: 20px;
+  min-height: 146px;
 }
 .about__item p {
   font-weight: 600;
@@ -759,6 +756,13 @@ ul {
 @media only screen and (max-width: 991px) {
   .footer {
     background-position: 100%;
+    background: url("../images/foot-tabl.png") 50% 50% no-repeat;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer {
+    background-position: 100%;
     background: url("../images/foot-bg-mobile.png") 50% 50% no-repeat;
     background-size: cover;
   }
@@ -833,6 +837,15 @@ ul {
   cursor: pointer;
   justify-content: center;
 }
+.footer__soc li a svg path {
+  transition: 300ms;
+}
+.footer__soc li a:hover svg path {
+  fill: #e20e17;
+}
+.footer__soc li a:active svg path {
+  fill: #b00b12;
+}
 .footer__copy {
   font-size: 15px;
   font-weight: 400;
@@ -849,14 +862,49 @@ ul {
   }
 }
 .footer__pers {
-  max-width: 232px;
-  color: #C8D1E3;
+  max-width: 251px;
+  color: #c8d1e3;
   display: block;
   font-size: 15px;
 }
 .footer__pers a {
-  margin-bottom: 15px;
+  text-decoration: underline;
 }
 .footer__pers a:last-child {
   margin-bottom: 0;
+}
+
+.polyt {
+  margin: 90px 0;
+}
+@media only screen and (max-width: 991px) {
+  .polyt {
+    margin: 70px 0;
+  }
+}
+.polyt__title {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: rgb(9, 33, 71);
+}
+@media only screen and (max-width: 991px) {
+  .polyt__title {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .polyt__title {
+    font-size: 26px;
+  }
+}
+.polyt__text {
+  font-size: 15px;
+  color: rgb(143, 155, 174);
+}
+@media only screen and (max-width: 991px) {
+  .polyt__text {
+    font-size: 14px;
+  }
 }
