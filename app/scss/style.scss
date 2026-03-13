@@ -838,6 +838,10 @@ ul {
       width: 100%;
       white-space: nowrap;
 
+      &:hover {
+        color: #c8d1e3;
+      }
+
       @media only screen and (max-width: 991px) {
         font-size: 22px;
       }

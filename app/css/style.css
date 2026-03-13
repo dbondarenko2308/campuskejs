@@ -812,6 +812,9 @@ ul {
   width: 100%;
   white-space: nowrap;
 }
+.footer__info a:hover {
+  color: #c8d1e3;
+}
 @media only screen and (max-width: 991px) {
   .footer__info a {
     font-size: 22px;
