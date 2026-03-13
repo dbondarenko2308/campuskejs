@@ -1,21 +1,21 @@
 @font-face {
-  font-family: "Nunito Sans";
-  src: url("../fonts/NunitoSans-Bold.woff2") format("woff2"), url("../fonts/NunitoSans-Bold.woff") format("woff");
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.woff2") format("woff2"), url("../fonts/Mulish-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Nunito Sans";
-  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"), url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2"), url("../fonts/Mulish-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Nunito Sans";
-  src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff2"), url("../fonts/NunitoSans-SemiBold.woff") format("woff");
-  font-weight: 600;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.woff2") format("woff2"), url("../fonts/Mulish-SemiBold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -43,7 +43,7 @@ button:focus {
 }
 
 body {
-  font: 400 18px "Nunito Sans", sans-serif;
+  font: 400 18px "Mulish", sans-serif;
   position: relative;
 }
 body b {
@@ -111,7 +111,7 @@ ul {
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.03em;
@@ -204,7 +204,7 @@ ul {
   }
 }
 .showcase__text {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 65px;
   line-height: 123%;
   text-transform: uppercase;
@@ -266,7 +266,7 @@ ul {
   }
 }
 .work__name {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
   color: #092147;
   max-width: 400px;
@@ -349,7 +349,7 @@ ul {
   }
 }
 .brands__title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 42px;
   line-height: 133%;
   text-transform: uppercase;
@@ -523,7 +523,7 @@ ul {
   background: #e20e17;
 }
 .climat__name {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
   line-height: 125%;
   color: #092147;
@@ -568,7 +568,7 @@ ul {
   }
 }
 .about__title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 42px;
   line-height: 133%;
   text-transform: uppercase;
@@ -672,7 +672,7 @@ ul {
   border-radius: 20px;
 }
 .about__item p {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 34px;
   color: #092147;
   display: block;
@@ -707,7 +707,7 @@ ul {
   color: #fff;
 }
 .about__desc p {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 34px;
 }
 @media only screen and (max-width: 767px) {
@@ -792,7 +792,7 @@ ul {
   margin-right: 54px;
 }
 .footer__info a {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   display: block;
   color: #fff;
