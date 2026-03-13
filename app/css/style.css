@@ -54,7 +54,7 @@ body {
   position: relative;
 }
 body b {
-  font-weight: 700;
+  font-weight: 600;
 }
 body.select-close {
   overflow-x: hidden;
@@ -118,7 +118,7 @@ ul {
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.03em;
@@ -211,7 +211,7 @@ ul {
   }
 }
 .showcase__text {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 65px;
   line-height: 123%;
   text-transform: uppercase;
@@ -273,7 +273,7 @@ ul {
   }
 }
 .work__name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   color: #092147;
   max-width: 400px;
@@ -356,7 +356,7 @@ ul {
   }
 }
 .brands__title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 42px;
   line-height: 133%;
   text-transform: uppercase;
@@ -530,7 +530,7 @@ ul {
   background: #e20e17;
 }
 .climat__name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 125%;
   color: #092147;
@@ -575,7 +575,7 @@ ul {
   }
 }
 .about__title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 42px;
   line-height: 133%;
   text-transform: uppercase;
@@ -679,7 +679,7 @@ ul {
   border-radius: 20px;
 }
 .about__item p {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 34px;
   color: #092147;
   display: block;
@@ -714,7 +714,7 @@ ul {
   color: #fff;
 }
 .about__desc p {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 34px;
 }
 @media only screen and (max-width: 767px) {
@@ -799,7 +799,7 @@ ul {
   margin-right: 54px;
 }
 .footer__info a {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
   display: block;
   color: #fff;

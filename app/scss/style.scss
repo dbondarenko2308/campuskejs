@@ -65,7 +65,7 @@ body {
   position: relative;
 
   b {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   &.select-close {
@@ -133,7 +133,7 @@ ul {
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.03em;
@@ -231,7 +231,7 @@ ul {
   }
 
   &__text {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 65px;
     line-height: 123%;
     text-transform: uppercase;
@@ -290,7 +290,7 @@ ul {
   }
 
   &__name {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     color: #092147;
     max-width: 400px;
@@ -372,7 +372,7 @@ ul {
   }
 
   &__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 42px;
     line-height: 133%;
     text-transform: uppercase;
@@ -562,7 +562,7 @@ ul {
   }
 
   &__name {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     line-height: 125%;
     color: #092147;
@@ -606,7 +606,7 @@ ul {
   }
 
   &__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 42px;
     line-height: 133%;
     text-transform: uppercase;
@@ -707,7 +707,7 @@ ul {
     border-radius: 20px;
 
     p {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 34px;
       color: #092147;
       display: block;
@@ -742,7 +742,7 @@ ul {
   &__desc {
     color: #fff;
     p {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 34px;
 
       @media only screen and (max-width: 767px) {
@@ -831,7 +831,7 @@ ul {
   &__info {
     margin-right: 54px;
     a {
-      font-weight: 700;
+      font-weight: 600;
       margin-bottom: 10px;
       display: block;
       color: #fff;
